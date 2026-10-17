@@ -26,7 +26,7 @@ If macOS's `python3` is too old, install an ARM64 Python from [python.org](https
 
 ## Build
 
-You can double-click **Build.command** to choose your package/folder and output location. It creates a local Python environment and downloads the listed Python dependencies. Alternatively, use the commands below.
+Run `zsh Build.command` in Terminal to choose your package/folder and output location. If you prefer double-clicking the launcher, first run `chmod +x Build.command` once; browser uploads/downloads may not preserve its executable permission. It creates a local Python environment and downloads the listed Python dependencies. Alternatively, use the commands below.
 
 Open Terminal in this repository:
 
