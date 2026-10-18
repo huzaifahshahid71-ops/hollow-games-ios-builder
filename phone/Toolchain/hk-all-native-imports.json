@@ -1,0 +1,127 @@
+[
+  {
+    "relative_path": "MacOS/Hollow Knight",
+    "original_sha256": "9716c46aa7fd513cd1d558ddd0930e7a1a29cd16cdb786ff769a57e1a2647967",
+    "dependency_replacements": {
+      "@executable_path/../Frameworks/UnityPlayer.dylib": "@executable_path/Mac/Contents/Frameworks/UnityPlayer.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {}
+  },
+  {
+    "relative_path": "PlugIns/libGalaxyCSharpGlue.dylib",
+    "original_sha256": "4240c2e4338cd8b9584ba82034575bd846a498ab4c6b1f95475f475e9dc20da5",
+    "dependency_replacements": {
+      "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa": "@rpath/libShim_Cocoa.dylib",
+      "/System/Library/Frameworks/Security.framework/Versions/A/Security": "@rpath/libShim_Security.dylib",
+      "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration": "@rpath/libShim_SystemConfiguration.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {}
+  },
+  {
+    "relative_path": "PlugIns/libGalaxy.dylib",
+    "original_sha256": "a43b0a516c3494daf5f1cd172fab25d2a65bb1f308dbbc65377d0b13a3f1642c",
+    "dependency_replacements": {
+      "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa": "@rpath/libShim_Cocoa.dylib",
+      "/System/Library/Frameworks/Security.framework/Versions/A/Security": "@rpath/libShim_Security.dylib",
+      "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration": "@rpath/libShim_SystemConfiguration.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib",
+      "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+    },
+    "aliases": {}
+  },
+  {
+    "relative_path": "PlugIns/InControlNative.bundle/Contents/MacOS/InControlNative",
+    "original_sha256": "77d063fa1561bd6eea179a89076e61b4c9085df47073eca5943057df72c14b30",
+    "dependency_replacements": {
+      "/System/Library/Frameworks/Metal.framework/Versions/A/Metal": "@rpath/libShim_Metal.dylib",
+      "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon": "@rpath/libShim_Carbon.dylib",
+      "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox",
+      "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio": "@rpath/libShim_CoreAudio.dylib",
+      "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo": "@rpath/libShim_CoreVideo.dylib",
+      "/System/Library/Frameworks/ForceFeedback.framework/Versions/A/ForceFeedback": "@rpath/libShim_ForceFeedback.dylib",
+      "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit": "@rpath/libShim_AppKit.dylib",
+      "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "/System/Library/Frameworks/GameController.framework/Versions/A/GameController": "/System/Library/Frameworks/GameController.framework/GameController",
+      "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit": "@rpath/libShim_IOKit.dylib",
+      "/System/Library/Frameworks/CoreHaptics.framework/Versions/A/CoreHaptics": "/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics",
+      "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation": "@rpath/libShim_Foundation.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {}
+  },
+  {
+    "relative_path": "Frameworks/libMonoPosixHelper.dylib",
+    "original_sha256": "d885757e35caebd9d31f989609ef14367a1ecf88f7746d33c2c3f0b23da63d13",
+    "dependency_replacements": {
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {}
+  },
+  {
+    "relative_path": "Frameworks/libmono-native.dylib",
+    "original_sha256": "7e4f923fd54d003557d053fa306ac13d31d5cb1e188bc22df15dca910946fd39",
+    "dependency_replacements": {
+      "/System/Library/Frameworks/GSS.framework/Versions/A/GSS": "/System/Library/Frameworks/GSS.framework/GSS",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {}
+  },
+  {
+    "relative_path": "Frameworks/UnityPlayer.dylib",
+    "original_sha256": "79675d0617c79528e340898f81f5654432de9f64fb25f26942ce66db9073d36f",
+    "dependency_replacements": {
+      "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon": "@rpath/libShim_Carbon.dylib",
+      "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa": "@rpath/libShim_Cocoa.dylib",
+      "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit": "@rpath/libShim_IOKit.dylib",
+      "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface": "/System/Library/Frameworks/IOSurface.framework/IOSurface",
+      "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+      "/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation": "@rpath/libShim_SecurityFoundation.dylib",
+      "/System/Library/Frameworks/GameController.framework/Versions/A/GameController": "/System/Library/Frameworks/GameController.framework/GameController",
+      "/System/Library/Frameworks/Metal.framework/Versions/A/Metal": "@rpath/libShim_Metal.dylib",
+      "/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit": "@rpath/libShim_AudioUnit.dylib",
+      "/System/Library/Frameworks/Security.framework/Versions/A/Security": "@rpath/libShim_Security.dylib",
+      "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics": "@rpath/libShim_CoreGraphics.dylib",
+      "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices": "@rpath/libShim_CoreServices.dylib",
+      "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit": "@rpath/libShim_AppKit.dylib",
+      "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration": "@rpath/libShim_SystemConfiguration.dylib",
+      "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo": "@rpath/libShim_CoreVideo.dylib",
+      "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio": "@rpath/libShim_CoreAudio.dylib",
+      "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL": "@rpath/libShim_OpenGL.dylib",
+      "/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz": "@rpath/libShim_Quartz.dylib",
+      "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation": "@rpath/libShim_AVFoundation.dylib",
+      "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia",
+      "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation": "@rpath/libShim_Foundation.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib",
+      "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+    },
+    "aliases": {
+      "_dlsym": "_HKsym"
+    }
+  },
+  {
+    "relative_path": "Frameworks/libmonobdwgc-2.0.dylib",
+    "original_sha256": "13ad96c731e2f6d7489aa29c5da15a773824346d3e2c45f2f8b5410af9a94779",
+    "dependency_replacements": {
+      "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation": "@rpath/libShim_Foundation.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {
+      "_mmap": "_smmp"
+    }
+  },
+  {
+    "relative_path": "Frameworks/Mono/MonoEmbedRuntime/osx/libGalaxyCSharpGlue.dylib",
+    "original_sha256": "4240c2e4338cd8b9584ba82034575bd846a498ab4c6b1f95475f475e9dc20da5",
+    "dependency_replacements": {
+      "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa": "@rpath/libShim_Cocoa.dylib",
+      "/System/Library/Frameworks/Security.framework/Versions/A/Security": "@rpath/libShim_Security.dylib",
+      "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration": "@rpath/libShim_SystemConfiguration.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {}
+  }
+]

@@ -72,3 +72,7 @@ The repository contains source, generated control art, version fingerprints and 
 No phone connection is required to build, and these scripts never install/uninstall an app or access a device's saves. Existing working ports and original packages remain separate from the public builder.
 
 See [architecture](docs/ARCHITECTURE.md), [third-party provenance](THIRD-PARTY.md) and [validation](docs/VALIDATION.md).
+
+## Experimental iPhone builder
+
+The new [phone builder](phone/README.md) provides a native glass-style two-game interface and exports compiler/game IPAs on an iPhone for normal LiveContainer import with JIT disabled. Both phone-built game-code integrations have launched successfully in private tests. Complete original-folder/full phone-compression acceptance testing remains unfinished; read the beta's verification limits and storage requirements before using it. The existing Mac builder remains available.

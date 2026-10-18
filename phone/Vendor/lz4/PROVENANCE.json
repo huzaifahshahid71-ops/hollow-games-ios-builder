@@ -1,0 +1,12 @@
+{
+  "upstream": "https://github.com/lz4/lz4",
+  "tag": "v1.10.0",
+  "license": "BSD-2-Clause",
+  "sha256": {
+    "LICENSE": "8b58c446121a109ccf32edc094bba3010a3d85e4ee3702950db55e4d3e87736c",
+    "lz4.c": "9396f7de527bc8435de9c7569fb7998e56545a84b4f3c2d808c0235c01774539",
+    "lz4.h": "26b82efc53d1570f3b54eef02e9c4764c1ad374ff03cac04e2ced5ea4d4c552f",
+    "lz4hc.c": "126cafafdb91767e6e55238298a910903851b35b2cee27ce80ae2280469ee232",
+    "lz4hc.h": "e43824e8a9ba16f54100c4ccbccfa5782a858ca9ab83c48aac303fea3e76e21e"
+  }
+}

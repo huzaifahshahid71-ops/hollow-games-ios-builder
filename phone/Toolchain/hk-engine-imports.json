@@ -1,0 +1,42 @@
+[
+  {
+    "dependency_replacements": {
+      "@executable_path/../Frameworks/UnityPlayer.dylib": "@executable_path/Mac/Contents/Frameworks/UnityPlayer.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+    },
+    "aliases": {},
+    "relative_path": "MacOS/Hollow Knight"
+  },
+  {
+    "dependency_replacements": {
+      "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon": "@rpath/libShim_Carbon.dylib",
+      "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa": "@rpath/libShim_Cocoa.dylib",
+      "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit": "@rpath/libShim_IOKit.dylib",
+      "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface": "/System/Library/Frameworks/IOSurface.framework/IOSurface",
+      "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+      "/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation": "@rpath/libShim_SecurityFoundation.dylib",
+      "/System/Library/Frameworks/GameController.framework/Versions/A/GameController": "/System/Library/Frameworks/GameController.framework/GameController",
+      "/System/Library/Frameworks/Metal.framework/Versions/A/Metal": "@rpath/libShim_Metal.dylib",
+      "/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit": "@rpath/libShim_AudioUnit.dylib",
+      "/System/Library/Frameworks/Security.framework/Versions/A/Security": "@rpath/libShim_Security.dylib",
+      "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics": "@rpath/libShim_CoreGraphics.dylib",
+      "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices": "@rpath/libShim_CoreServices.dylib",
+      "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit": "@rpath/libShim_AppKit.dylib",
+      "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration": "@rpath/libShim_SystemConfiguration.dylib",
+      "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo": "@rpath/libShim_CoreVideo.dylib",
+      "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio": "@rpath/libShim_CoreAudio.dylib",
+      "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL": "@rpath/libShim_OpenGL.dylib",
+      "/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz": "@rpath/libShim_Quartz.dylib",
+      "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation": "@rpath/libShim_AVFoundation.dylib",
+      "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia",
+      "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation": "@rpath/libShim_Foundation.dylib",
+      "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib",
+      "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+    },
+    "aliases": {
+      "_dlsym": "_HKsym"
+    },
+    "relative_path": "Frameworks/UnityPlayer.dylib"
+  }
+]

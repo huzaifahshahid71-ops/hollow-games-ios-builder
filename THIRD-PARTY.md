@@ -14,3 +14,5 @@ Dependencies are obtained separately, not bundled:
 - Unity/Mono, the games, their data and original artwork come exclusively from the builder user's private Mac input. They remain governed by their respective owners' terms. Native companions generated from game assemblies are private build outputs, excluded from public source archives.
 
 The generated control artwork was created during this project. APK-derived sprites and user-supplied game cover icons are intentionally omitted. See `docs/ARTWORK.md`.
+
+The experimental `phone/` builder adds LLVM 20.1.8 (Apache-2.0 with LLVM exceptions) and vendored LZ4 1.10.0 (BSD-2-Clause), with notices beside their source. Its game-card branding images were supplied separately by the maintainer, are not covered by the code license, and remain with their respective owners. The earlier omission of supplied covers applies to the original Mac-builder assets; the phone UI now uses these explicitly requested branding resources. No original game content or game-derived native companions are included in the entry IPA.

@@ -1,0 +1,5 @@
+{
+  "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+  "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation": "@rpath/libShim_Foundation.dylib",
+  "/usr/lib/libSystem.B.dylib": "@rpath/libShim_libSystem.dylib"
+}

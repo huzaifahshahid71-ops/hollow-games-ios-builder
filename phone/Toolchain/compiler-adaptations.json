@@ -1,0 +1,22 @@
+{
+  "hollow-knight": {
+    "entry_offset": 389140,
+    "entry_guard": "e923b96dfc6f01a9",
+    "flag_offset": 3214064,
+    "buffer_offset": 16864,
+    "buffer_guard": "e00314aa86700794",
+    "malloc_stub": 2336976,
+    "unity_core_sha256": "4c107852047fcd431c78b1622a4ccd0390dc703db9a4691e731ca9913b924837",
+    "unity_core_flag_offset": 543669
+  },
+  "silksong": {
+    "entry_offset": 390200,
+    "entry_guard": "e923b96dfc6f01a9",
+    "flag_offset": 3214064,
+    "buffer_offset": 17908,
+    "buffer_guard": "e00314aaa66f0794",
+    "malloc_stub": 2336976,
+    "unity_core_sha256": "632aec9b4ab89319591996129bdc416ccb7d1d04637f2b4520933b489a51d30c",
+    "unity_core_flag_offset": 543441
+  }
+}
