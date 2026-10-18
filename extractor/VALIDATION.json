@@ -1,0 +1,15 @@
+{
+  "hollow_knight": {
+    "files": 1791,
+    "bytes": 5287392212,
+    "all_output_file_sha256_match_original": true
+  },
+  "silksong": {
+    "files": 2261,
+    "bytes": 8263270819,
+    "all_output_file_sha256_match_original": true
+  },
+  "xar_toc_and_scripts_sha1_and_gzip_crc_verified": true,
+  "full_on_phone_extraction_verified": false,
+  "installer_scripts_executed": false
+}

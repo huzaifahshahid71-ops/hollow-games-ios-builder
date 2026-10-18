@@ -9,13 +9,13 @@ A native glass-style interface for building supported Hollow Knight games on an 
 | Hollow Knight | 1.5.12620 | 119, including our control bridge |
 | Hollow Knight: Silksong | 1.0.30000 | 136; two original assemblies remain interpreted |
 
-This phone beta accepts a complete extracted Mac `.app` folder, or a folder containing it. It does not unpack `.pkg`, Linux installers or APKs. Use the Mac builder for package extraction. Keep all original files; neither builder modifies them. Other versions fail fingerprint validation.
+This single IPA contains both game builders plus **Extract GOG .pkg** on its home screen. Use that tool first for the two supported original GOG packages, then choose the extracted Mac `.app` folder in the matching game builder. The builders also accept existing complete extracted folders. Linux installers and APKs are unsupported. Read the [extractor guide](../extractor/README.md) for exact formats, storage and verification limits. Keep all original files; neither builder modifies them. Other versions fail fingerprint validation.
 
 Tested device: iPhone 15 Pro, iOS 27.0.1, LiveContainer 3.8.10, JIT disabled. The UI uses native glass on iOS 26+ and standard UIKit material on older systems; minimum deployment target is iOS 17. Other devices/OS versions have not been verified.
 
 ## Install and build
 
-1. Import the **Hollow Builder** unsigned IPA into LiveContainer. Launch with JIT disabled.
+1. Import the **Hollow Builder** unsigned IPA into LiveContainer. Launch with JIT disabled. If you have a supported `.pkg`, use **Extract GOG .pkg** first; no second extractor app is needed.
 2. Tap a game card and **Choose original game folder**. Select your complete original Mac game folder in Files.
 3. When **Your IPA is ready** appears, open Files → On My iPhone → LiveContainer → **Hollow Builder Exports**. Import the new **CompilerStage** IPA as a separate app.
 4. Launch that game's builder with JIT disabled. Keep it open until **Native game code is ready**.
