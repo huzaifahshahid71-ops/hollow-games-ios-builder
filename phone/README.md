@@ -1,4 +1,4 @@
-# Hollow Builder for iPhone — experimental beta
+# Hollow Builder for iPhone — 1.0
 
 A native glass-style interface for building supported Hollow Knight games on an iPhone. Select a game card, provide your own original Mac game folder, and export an unsigned IPA for LiveContainer. No original game runtime, game code, game content or game-derived AOT libraries are included in the builder download. The small HKInputBridge.dll is project-authored control code.
 
@@ -41,7 +41,7 @@ Hollow Knight packs loose assets into independently compressed 128 KiB UnityFS b
 - Silksong's new compressor passed a real two-node bundle test with independent UnityPy SHA verification on Mac. Full-game phone recompression is implemented but not yet acceptance-tested.
 - Home-screen game cards and navigation were user-tested. The final uniform squircle mask is a subsequent visual correction.
 
-This is an **experimental beta**, not complete progression certification. Back up saves, retain your original game folders, and report the exact failing step with the builder report. No 50–90-hour playthrough is claimed.
+Version 1.0 is not complete progression certification. Back up saves, retain your original game folders, and report the exact failing step with the builder report. No 50–90-hour playthrough is claimed.
 
 ## Build the builder on a Mac
 
@@ -79,6 +79,13 @@ Private device logs, personal deployment helpers and internal checkpoints are in
 
 Enable **Fix File Picker** in the app-specific LiveContainer settings for Hollow Builder and each generated compiler-stage builder. Relaunch after changing it. Without this host compatibility setting, Files may open but tapping Open does nothing. The setting corrects the host identifier supplied to Files.
 
-Hollow Knight: a user has confirmed a playable game generated through the phone-builder workflow. This does not certify every level or progression path. The equivalent complete Silksong workflow remains unverified.
+Hollow Knight: a user has confirmed a playable game generated through the phone-builder workflow. This does not certify every level or progression path. Silksong has also exported through the corrected phone workflow and reached gameplay and room transitions in user testing.
 
 Extraction can write beside the original package when its containing folder is selected. Direct file import asks for an output folder. Original packages are preserved.
+
+
+## Version 1.0 export fixes
+
+Native PlugIns/*.bundle files are preserved rather than treated as UnityFS assets. Asset compression is restricted to StreamingAssets bundles. Valid blocks up to 256 MiB are supported; all 2,068 original Silksong asset bundles fit this limit (largest block 134,906,032 bytes). Uncompressed blocks reuse their read buffer to reduce peak memory. The repaired hero bundle was independently decoded and verified lossless. Export errors now survive staging cleanup and display their original message instead of crashing. Export-progress.txt records the latest staging step.
+
+Version 1.0 includes the control icon images selected by the project owner from the earlier working port, replacing generic fallbacks. Control artwork has separate rights from the MIT-licensed code; see assets/silksong/CONTROL-ARTWORK-NOTICE.md.
