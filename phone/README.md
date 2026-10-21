@@ -73,3 +73,12 @@ The output is `HollowLoader-Builder-Unsigned.ipa`. Public builds replace existin
 - No Apple SDK, original Mono/Unity binary, Steam emulator, replacement GOG save backend, personal certificate, provisioning profile or save file is distributed.
 
 Private device logs, personal deployment helpers and internal checkpoints are intentionally excluded from this public source folder.
+
+
+## LiveContainer file selection
+
+Enable **Fix File Picker** in the app-specific LiveContainer settings for Hollow Builder and each generated compiler-stage builder. Relaunch after changing it. Without this host compatibility setting, Files may open but tapping Open does nothing. The setting corrects the host identifier supplied to Files.
+
+Hollow Knight: a user has confirmed a playable game generated through the phone-builder workflow. This does not certify every level or progression path. The equivalent complete Silksong workflow remains unverified.
+
+Extraction can write beside the original package when its containing folder is selected. Direct file import asks for an output folder. Original packages are preserved.
